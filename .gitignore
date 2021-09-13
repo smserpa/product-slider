@@ -1,0 +1,17 @@
+CSS:
+
+.slider 
+- relative to parent el (slider-wrap)
+- height 100% of parent to fill entirety
+- width to be long 
+- display = flex to spread items evenly 
+- will change = transform to optimize browsing
+- background-color = black to fill entire container
+
+.slider-item
+- flex = 1 to space all flex items evenly
+- filter = grayscale(100%) to make images black&white
+
+.img-div
+-background-size = cover to cover div
+-background-position = center to center img
