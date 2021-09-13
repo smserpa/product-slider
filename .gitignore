@@ -15,3 +15,12 @@ CSS:
 .img-div
 -background-size = cover to cover div
 -background-position = center to center img
+
+
+JS:
+
+cloneNode - returns a copy of node if deep is true, includes node descendants
+
+function getClonesWidth - looping through all clones, getting width of clone through offsetWidth method and appending to width variable and returning full width of slider
+
+function setScrollPosition(position) - takes in a pixel position (ie position) sets window to scroll to that position. If we passed it 1 it would scroll 1 pixel from the top
